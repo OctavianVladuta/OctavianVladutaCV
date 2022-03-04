@@ -3300,7 +3300,7 @@ body.is-preload #wrapper.fade-in:before {
 		float: inherit;
 		text-align: left;
 		position: center;
-		margin-left: 35px;
+		margin-left:35px;
 	}
 
 ol li {
@@ -3331,14 +3331,22 @@ h1 {
 
 #p2 {
 	text-align: center;
+
+}
+#imagejob1{
+	text-align: center;
+	margin-left: 170px;
+	float:left;
 }
 
 #imageleft {
 	background: #ff9900;
 	text-align: center;
-	float: inherit;
+	float: center;
 	font-size: 35px;
 	color: black;
+
+display: inline-block;
 }
 
 #projects {
