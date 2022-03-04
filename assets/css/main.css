@@ -3336,7 +3336,7 @@ h1 {
 #imagejob1{
 	text-align: center;
 	display: block;
-	margin-left: auto;
+	margin-left: 84px;
 	float:left;
 }
 
@@ -3374,6 +3374,7 @@ body{
 	margin:auto;
 	width: 100%;
 	margin-right: 1000px
+	position:absolute;
 }
 
 #myskills{
