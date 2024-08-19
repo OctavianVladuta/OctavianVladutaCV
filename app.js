@@ -47,4 +47,37 @@ function handleResult(event){
         results.push(`${result[0].transcript}`);
     }
     textLog.innerHTML+= results.at(-1);
+
+    // if(textLog.textContent.includes("Open YouTube") || textLog.textContent.includes("open YouTube") )
+    // {
+    //     window.open(
+    //         'https://www.youtube.com/',
+    //         '_blank' 
+    //       );
+    // }
+
+    // if(results.at(-1).includes("Open YouTube") || results.at(-1).includes("open YouTube") )
+    // {
+    //     window.open(
+    //         'https://www.youtube.com/',
+    //         '_blank' 
+    //       );
+    // }
+
+    if(results.at(0).includes("Open YouTube") || results.at(0).includes("open YouTube") )
+    {
+        window.open(
+            'https://www.youtube.com/',
+            '_blank' 
+          );
+    }
+
+    else if(textLog.textContent.includes("Open my CV") || textLog.textContent.includes("open my CV") )
+    {
+        window.open(
+            'https://octavianvladuta.github.io/OctavianVladutaCV/',
+            '_blank' 
+          );
+    }
+
 }
