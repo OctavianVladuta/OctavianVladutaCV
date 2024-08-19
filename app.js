@@ -48,13 +48,13 @@ function handleResult(event){
     }
     textLog.innerHTML+= results.at(-1);
 
-    // if(textLog.textContent.includes("Open YouTube") || textLog.textContent.includes("open YouTube") )
-    // {
-    //     window.open(
-    //         'https://www.youtube.com/',
-    //         '_blank' 
-    //       );
-    // }
+     if(textLog.textContent.includes("Open YouTube") || textLog.textContent.includes("open YouTube") )
+     {
+         window.open(
+             'https://www.youtube.com/',
+             '_blank' 
+           );
+     }
 
     // if(results.at(-1).includes("Open YouTube") || results.at(-1).includes("open YouTube") )
     // {
